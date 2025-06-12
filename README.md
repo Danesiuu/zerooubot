@@ -3,16 +3,16 @@
 apt update && apt upgrade -y
 ```
 ```
-git clone https://github.com/ipan1434/ipanuserbot
+git clone https://github.com/Danesiuu/zerooubot
 ```
 ```
-cd ipanuserbot && screen -S ipanuserbot
+cd zerooubot && screen -S zerooubot
 ```
 ```
 bash installnode.sh && apt install python3.10-venv
 ```
 ```
-python3 -m venv ipanuserbot && source ipanuserbot/bin/activate
+python3 -m venv zerooubot && source zerooubot/bin/activate
 ```
 ```
 pip3 install -r requirements.txt
